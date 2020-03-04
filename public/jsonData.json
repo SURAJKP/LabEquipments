@@ -1,0 +1,102 @@
+[
+    {
+        "imageUrl": "https://getdrawings.com/free-icon/lab-icon-66.png",
+        "id": 1,
+        "equipmentName": "Equipment A",
+        "vendor": "Romaguera-Crona",
+        "location": "Victor Plains",
+        "model": "59590-4157",
+        "serial": "Suite 879",
+        "description": "cum officia vel magni\ndoloribus qui veniam quod sed accusamus veritatis error"
+      },
+    {
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/law-crime-and-justice-1/32/microscope-test-lab-laboratory-forensic-medical-instrument-512.png",
+        "id": 2,
+        "equipmentName": "Equipment B",
+        "vendor": "Guera-Lrona",
+        "location": "Royal street",
+        "model": "nisi-4157",
+        "serial": "veritatis 879",
+        "description": "nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+      },
+    {
+        "imageUrl": "https://cdn3.iconfinder.com/data/icons/seo-internet-marketing-4-3/64/x-11-512.png",
+        "id": 3,
+        "equipmentName": "Equipment C",
+        "vendor": "Veritatis-Crona",
+        "location": "Quod Plains",
+        "model": "liod-4157",
+        "serial": "Quod 879",
+        "description": "repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+      },
+    {
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRvw9z1a5S1j20JQAVL-UT6vg6hQ7A2XegvRBPllN5w95f9Y5Sr",
+        "id": 4,
+        "equipmentName": "Equipment D",
+        "vendor": "Momaera-Yona",
+        "location": "Tor lains",
+        "model": "et-4157",
+        "serial": "HYTt 879",
+        "description": "ISsi sit\nquos veniam quod sed accusamus veritatis error"
+      },
+    {
+        "imageUrl": "https://cdn3.iconfinder.com/data/icons/medical-equipment-supplies-2/256/Laboratory-512.png",
+        "id": 5,
+        "equipmentName": "Equipment E",
+        "vendor": "Leritatis-Crona",
+        "location": "Quod Plains",
+        "model": "liod-4157",
+        "serial": "Quod 879",
+        "description": "Bus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+      },
+    {
+        "imageUrl": "https://cdn3.iconfinder.com/data/icons/seo-internet-marketing-4-3/64/x-11-512.png",
+        "id": 6,
+        "equipmentName": "Equipment F",
+        "vendor": "Romaguera-Crona",
+        "location": "Victor Plains",
+        "model": "59590-4157",
+        "serial": "Suite 879",
+        "description": "Audiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+      },
+    {
+        "imageUrl": "https://cdn3.iconfinder.com/data/icons/medical-equipment-supplies-2/256/Laboratory-512.png",
+        "id": 7,
+        "equipmentName": "Equipment G",
+        "vendor": "Leritatis-Crona",
+        "location": "Quod Plains",
+        "model": "liod-4157",
+        "serial": "Quod 879",
+        "description": "Magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+      },
+    {
+        "imageUrl": "https://cdn2.iconfinder.com/data/icons/medical-equipment-supplies-1/256/Microscope-512.png",
+        "id": 8,
+        "equipmentName": "Equipment H",
+        "vendor": "Romaguera-Crona",
+        "location": "Victor Plains",
+        "model": "59590-4157",
+        "serial": "Suite 879",
+        "description": "NKOOIvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+      },
+    {
+        "imageUrl": "https://cdn0.iconfinder.com/data/icons/law-crime-and-justice-1/32/microscope-test-lab-laboratory-forensic-medical-instrument-512.png",
+        "id": 9,
+        "equipmentName": "Equipment I",
+        "vendor": "Leritatis-Crona",
+        "location": "Quod Plains",
+        "model": "liod-4157",
+        "serial": "Quod 879",
+        "description": "OOIIKepudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+      },
+    {
+      "imageUrl": "https://cdn2.iconfinder.com/data/icons/medical-equipment-supplies-1/256/Microscope-512.png",
+      "id": 10,
+      "equipmentName": "Equipment J",
+      "vendor": "KTG-Crona",
+      "location": "LOIN Plains",
+      "model": "59590-4157",
+      "serial": "Suite 879",
+      "description": "EYqui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+    }
+]

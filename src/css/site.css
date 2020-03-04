@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+}  
+
+img.brand{
+    width: 70px;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar {
+    padding: 0px !important;
+}
+
+.bg-light {
+    background-color: rgb(196, 196, 214) !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">" !important;
+}
+
+.breadcrumb {
+    background-color: whitesmoke !important;
+}
+
+.container-fluid {
+  width: 95%;
+  border: 1px solid rgb(194, 189, 189);
+  margin-left: 20px;
+}
+
+.bg-white {
+  background-color: rgba(222, 216, 216, 0.466)!important;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    max-width: 400px;
+    min-width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+  div.loader {
+    font-size: 200px;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 70%;
+    border: 1px solid #ddd;
+    margin-left: 17px;
+  }
+
+ table a
+{
+    display:block;
+    text-decoration:none;
+    color: black;
+    font-weight: 500;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.raw {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #b8cad3;
+  }
+
+  .image {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.breadcrumb {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: .75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #e9ecef;
+  border-radius: .25rem;
+  width: 100%;
+  padding-left: 30px !important;
+}
+
+p.details {
+  margin-top: 0;
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 5px 5px 5px 5px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+label.details {
+  display: inline-block;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  font-size: 14px;
+}

@@ -23,7 +23,7 @@ class DeviceDetails extends React.Component {
     showEquipmentDetails(){
         return this.props.equipments.map( (item) => {
             if (this.state.equipment === item.equipmentName) {
-                return <div className="raw">
+                return <div key={item.id} className="raw">
                     <div className="col-sm-4">
                         <img className="image" src={item.imageUrl} alt="img" />
                     </div>

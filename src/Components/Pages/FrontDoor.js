@@ -1,40 +1,32 @@
-import React, { Fragment } from 'react'
+import React, { useEffect, useState, Fragment } from 'react'
 import { connect } from 'react-redux'
 import { deviceList } from '../../Redux/Actions/DeviceList'
 import DeviceDetails from './DeviceDetails'
 import Loader from '../Common/Loader'
 
-class FrontDoor extends React.Component {
-    constructor(props) {
-        super(props)
+const FrontDoor = props => {
 
-        this.state = {
-            loader: true
-        }
-    }
+    const [ loader, changeloader ] = useState(true);
 
-    componentDidMount() {
-        this.props.deviceList().then(() => {
-            this.setState({loader: false})
+    useEffect(() => {
+        props.deviceList().then(() => {
+           changeloader(false)
         }).catch((err) => {
             console.log(err)
-            this.setState({loader: false})
+            changeloader(true)
         });
-    }
+    })
 
-    render(){
-        var totalDeviceList = this.props.devices;
         return (
             <Fragment>
-            {totalDeviceList.devices !== undefined && totalDeviceList.devices.length > 0 ?
-                <DeviceDetails equipments={totalDeviceList.devices} />
-                :
+            {props.devices.devices === undefined && props.devices.devices.length === 0 && loader ?  
                 <Loader /> 
+                    :
+                <DeviceDetails equipments={props.devices.devices} />
             }
             </Fragment>
         )
-    }        
-}
+    }
 
 const mapStateToProps = state => {
     return {

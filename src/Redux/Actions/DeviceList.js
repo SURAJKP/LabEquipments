@@ -6,6 +6,13 @@ export const listDevices = (devices) => ({
     payload: devices
 })
 
+export const activeEquipment = (data) => ({
+    type: types.UPDATE_CURRENT_EQUIPMENT,
+    payload: data
+})
+
 export const deviceList = () => dispatch =>
     api.devices.deviceList().then(res => dispatch(listDevices(res.data))
 )
+
+export const currentEquipment = (data) => dispatch => dispatch(activeEquipment(data));

@@ -24,7 +24,7 @@ class DeviceDetails extends React.Component {
         return (
             <div className="row">
                 <nav className="breadcrumb shadow p-3 mb-5">
-                    <span className="breadcrumb-item"><i className="fas fa-list-alt"></i></span>
+                    <span className="breadcrumb-item"><i className="fa fa-list-alt"></i></span>
                     <span className="breadcrumb-item"><b>Device Name</b></span>
                     <span className="breadcrumb-item active">{this.props.equipment.equipment}</span>
                 </nav>
